@@ -23,8 +23,6 @@ btnInc.addEventListener('click', function () {
   valueEl.textContent = counter.counterValue
 })
 
-
-// style for container
 const containerCounter = document.querySelector('#counter')
 containerCounter.style.display = 'flex'
 containerCounter.style.gap = '20px'
